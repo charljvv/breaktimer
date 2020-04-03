@@ -21,5 +21,8 @@ run `crontab -e`
 and add the following line at the bottom of this file:
 `@reboot /usr/bin/python ~/breakmeupscotty.py`
 
+Replace `/usr/bin/python` with your path to python
+and `~/breaktimer/breakmupscotty.py` with the path to the repo/breakmeupscotty.py
+
 This will run the script on startup of the pi. Have a look at [http://www.cronmaker.com/](cron maker) if you want to customize the frequency of the script running.
 Cron setup is out of scope for this project.
