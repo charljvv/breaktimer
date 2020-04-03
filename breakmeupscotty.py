@@ -31,8 +31,7 @@ def randomRGBValue():
 	return randint(0,255)
 
 while True:
-	if(datetime.today().weekday() in range(workWeek[0], workWeek[1]+1) and datetime.now().hour in range(workingHours[0],workingHours[1]))
-
+	if(datetime.today().weekday() in range(workWeek[0], workWeek[1]+1) and datetime.now().hour in range(workingHours[0],workingHours[1])):
 		# Flash all LEDs with random colours
 		sense.clear(randomRGBValue(), randomRGBValue(), randomRGBValue())
 		sleep(1)
