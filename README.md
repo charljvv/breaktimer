@@ -6,7 +6,7 @@ A python script to remind you to take regular breaks by way of a SENSE HAT board
 # Pre-requirements
 ## Hardware
 - An installed sense HAT board on the pi. More info on that here: [https://www.raspberrypi.org/products/sense-hat/](https://www.raspberrypi.org/products/sense-hat/)
-<img src="https://github.com/charljvv/breaktimer/blob/master/assets/sense-hat-pic.jpg" width="200" height="200">
+<img src="https://github.com/charljvv/breaktimer/blob/master/assets/sense-hat-pic.jpg" width="300" height="200">
 ## Software
 - A RaspberryPi with a version of linux.
 - Install Python on your pi. Python2.7 is usually installed with most debian distributions. This code should be compatible with v3.6 as well.
